@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   margin: 1% 7%;
-  padding-left: 3%;
+  padding-left: 35%;
   font-size: 2rem;
   color: ivory;
 }
@@ -77,13 +77,17 @@ ul li a {
   color: ivory;
   margin-right: 0%;
 }
+#backgroundHeadImg {
+  background-image: url(https://media.istockphoto.com/photos/purple-space-stars-picture-id157639696?b=1&k=20&m=157639696&s=170667a&w=0&h=5Vh0cQzZE0tVKF8SWob83bAHfpPoc6L5YjXxjxdyOTw=);
+}
 #contact-me {
   text-decoration: underline;
   text-align: center;
 }
-#profile-pic {
-  width: 100%;
-  background-image: url(./images/avatar.png);
+#profilePicEl {
+}
+#profilePic {
+  height: 75%;
 }
 #work {
   display: flex;
@@ -91,20 +95,13 @@ ul li a {
   width: 100vw;
 }
 .about-me {
-  display: inline-flex;
   max-height: 100%;
   height: 100%;
 }
 .background-head {
   display: flex;
-  min-height: 500px;
-  background-image: url(./axel-czikora-GfTU54kkFmM-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-  justify-content: end;
-  align-items: flex-end;
   max-width: 100%;
-  min-height: 500px;
+  min-height: 100px;
 }
 
 .background-head h1 {
@@ -114,7 +111,6 @@ ul li a {
   font-size: 2rem;
 }
 .cards {
-  background: linear-gradient(#2e3844, #548c89);
   box-sizing: border-box;
   border: solid white 3px;
   min-width: 40%;
@@ -168,7 +164,7 @@ ul li a {
 .feature-image {
   display: flex;
   min-height: 300px;
-  background-image: url(./images/axel-czikora-GfTU54kkFmM-unsplash.jpg);
+  background-image: url(https://github.com/alexgeis/VIBE-LOUNGE/blob/main/assets/images/VibeLoungeLogoBlack.png?raw=true);
   background-position: center;
   background-size: cover;
   justify-content: end;
@@ -210,9 +206,6 @@ ul li a {
 
 .main-header h1 {
   text-align: center;
-}
-.profile-pic {
-  width: 50%;
 }
 .work-head {
   border-right: solid #2e3844 5px;

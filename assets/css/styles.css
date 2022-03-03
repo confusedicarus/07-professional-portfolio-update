@@ -13,14 +13,14 @@ aside {
   min-height: 100%;
   max-width: 150px;
   border-right: solid #2e3844 3px;
-  background: linear-gradient(#2e3844, #548c89);
+  background: linear-gradient(#932856, #27337d);
 }
 aside h3 {
   padding-top: 70vh;
   padding-bottom: 5vh;
 }
 body {
-  background: linear-gradient(#2e3844, #548c89);
+  background: linear-gradient(#27337d, #932856);
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   margin: 1% 7%;
-  padding-left: 3%;
+  padding-left: 35%;
   font-size: 2rem;
   color: ivory;
 }
@@ -78,11 +78,15 @@ ul li a {
   margin-right: 0%;
 }
 #contact-me {
+  padding-top: 2%;
   text-decoration: underline;
   text-align: center;
 }
-#profile-pic {
-  max-width: 75%;
+#profilePic {
+  height: 75%;
+}
+#profilePicEl {
+  width: 30%;
 }
 #work {
   display: flex;
@@ -97,7 +101,7 @@ ul li a {
 .background-head {
   display: flex;
   min-height: 500px;
-  background-image: url(./axel-czikora-GfTU54kkFmM-unsplash.jpg);
+  background-image: url(https://images-assets.nasa.gov/image/PIA12348/PIA12348~orig.jpg);
   background-position: center;
   background-size: cover;
   justify-content: end;
@@ -108,14 +112,13 @@ ul li a {
 
 .background-head h1 {
   display: block;
-  background-color: #2e3844;
-  color: #548c89;
+  background-color: (#27337d, #932856);
+  color: #d79467;
   font-size: 2rem;
 }
 .cards {
-  background: linear-gradient(#2e3844, #548c89);
   box-sizing: border-box;
-  border: solid white 3px;
+  border: solid #d79467 3px;
   min-width: 40%;
   min-height: 40%;
   padding: 1%;
@@ -140,11 +143,11 @@ ul li a {
 }
 
 .card:hover {
-  box-shadow: inset 0px 0px 8px #548c89 #2e3844;
+  box-shadow: inset 0px 0px 8px (#27337d, #932856);
 }
 .cards p {
-  background: linear-gradient(#2e3844, #548c89);
-  color: white;
+  background: linear-gradient((#27337d, #932856));
+  color: #d79467;
   text-decoration: underline;
   font-size: 1.5rem;
 }
@@ -180,7 +183,7 @@ ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: linear-gradient(#2e3844, #548c89);
+  background: linear-gradient(#932856, #27337d);
   width: 100%;
   height: 100%;
 }
@@ -189,21 +192,21 @@ ul li a {
 }
 .info-me {
   flex: 1;
-  background-color: white;
+  background-color: #27337d;
   padding: 20px;
   min-height: 20%;
   border-right: solid #2e3844 3px;
   display: flex;
   flex-direction: row;
-  background: linear-gradient(#2e3844, #548c89);
+  background: linear-gradient((#27337d, #932856));
 }
 .test {
   flex: 1;
-  background: linear-gradient(#2e3844, #548c89);
+  background: linear-gradient((#27337d, #932856));
 }
 
 .main-header {
-  background: linear-gradient(#2e3844, #548c89);
+  background: linear-gradient((#27337d, #932856));
   color: white;
 }
 
@@ -214,7 +217,7 @@ ul li a {
   width: 50%;
 }
 .work-head {
-  border-right: solid #2e3844 5px;
+  border-right: solid #151426 5px;
   padding-right: 5%;
   min-height: 100%;
   margin: auto, 5%;
@@ -225,6 +228,8 @@ ul li a {
     font-size: 4rem;
   }
   nav {
+    margin: 0;
+    padding: 0;
     height: 100%;
   }
   nav ul {

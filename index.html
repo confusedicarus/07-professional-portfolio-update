@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./reset.css">
+  <!-- <link rel="stylesheet" href="./reset.css"> -->
   <link rel="stylesheet" href="./assets/css/styles.css">
 
   <title>Portfolio//Rick Morrissette</title>
@@ -23,14 +23,19 @@
         <li><a href="#work">Work</a></li>
         <li><a href="#contact-me">Contact Me</a></li>
         <li><a href="#">Resume</a></li>
+      </ul>
     </nav>
-    </ul>
-    <div class="background-head">
-      <h1>With our powers combined!</h1>
+    <div id="backgroundHeadImg" class="background-head" >
+      <h1>Dreams amoungst the stars</h1>
     </div>
   </section>
-  <h2>About Me</h2>
+  <div>
+    <h2>About Me</h2>
+
+  </div>
   <section class="about-me">
+    <div id="profilePicEl">
+    <img id="profilePic" src="./assets/images/avatar.png" alt="Rick's Profile Picture"></div>
     <p id="about-me">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro vel officia voluptates neque omnis nemo esse
       sint inventore doloribus eos voluptas quidem error id provident sed. Iusto odio nostrum inventore placeat
@@ -44,11 +49,7 @@
       quia dolorem debitis, quam dolores ullam ratione maxime pariatur! Quaerat possimus velit reiciendis.
       Exercitationem voluptatum ratione alias repellat! <br>
     </p>
-    <div class="profile-pic">
-      <div id="profile-pic">
-        
-      </div>
-    </div>
+    
   </section>
   <main>
     <section id="work">
@@ -65,7 +66,7 @@
           <div class="cards card1" onclick="location.href='https://confusedicarus.github.io/03-js-password-generator-project/'">
             <p>Password Generator</p>
           </div>
-          <div class="cards card" onclick="location.href='https://confusedicarus.github.io/05-daily-work-scheduler/'">
+          <div class="cards card2" onclick="location.href='https://confusedicarus.github.io/05-daily-work-scheduler/'">
             <p>Work Day Scheduler</p>
             
           </div>
