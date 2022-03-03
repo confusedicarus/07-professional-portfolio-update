@@ -82,8 +82,7 @@ ul li a {
   text-align: center;
 }
 #profile-pic {
-  width: 100%;
-  background-image: url(./images/avatar.png);
+  max-width: 75%;
 }
 #work {
   display: flex;
@@ -168,7 +167,7 @@ ul li a {
 .feature-image {
   display: flex;
   min-height: 300px;
-  background-image: url(./images/axel-czikora-GfTU54kkFmM-unsplash.jpg);
+  background-image: url(https://github.com/alexgeis/VIBE-LOUNGE/blob/main/assets/images/VibeLoungeLogoBlack.png?raw=true);
   background-position: center;
   background-size: cover;
   justify-content: end;
