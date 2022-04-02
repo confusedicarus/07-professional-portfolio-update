@@ -72,10 +72,10 @@ ul li a {
 
 #about-me {
   border-top: solid #2e3844 3px;
-  padding: 1%;
-  margin: 1% 7%;
   color: ivory;
-  margin-right: 0%;
+  text-align: center;
+  padding-top: 1%
+  
 }
 #contact-me {
   padding-top: 2%;
@@ -83,6 +83,7 @@ ul li a {
   text-align: center;
 }
 #profilePic {
+  align-items: ;
   height: 75%;
 }
 #profilePicEl {
@@ -94,10 +95,13 @@ ul li a {
   width: 100vw;
 }
 .about-me {
-  display: inline-flex;
-  max-height: 100%;
-  height: 100%;
+
 }
+.btn {
+  background-color: #6922aa;
+  color: white;
+}
+
 .background-head {
   display: flex;
   min-height: 500px;
@@ -115,6 +119,11 @@ ul li a {
   background-color: (#27337d, #932856);
   color: #d79467;
   font-size: 2rem;
+  padding-right: 2%;
+}
+.card {
+  width: 500px;
+  
 }
 .cards {
   box-sizing: border-box;
@@ -144,6 +153,18 @@ ul li a {
 
 .card:hover {
   box-shadow: inset 0px 0px 8px (#27337d, #932856);
+}
+.cardContainer{
+  margin: 1%
+}
+.card-body-main {
+  background-image: url(https://media.istockphoto.com/photos/friends-red-cat-and-corgi-dog-walking-in-a-summer-meadow-under-the-picture-id1324099927?b=1&k=20&m=1324099927&s=170667a&w=0&h=_jRsZpMNYr--izDfsMtCB7MV97R-yMphyDTjcav85xc=);
+  background-position: center;
+  background-size: cover;
+  justify-content: end;
+  height: 200px;
+  opacity: 80%;
+
 }
 .cards p {
   background: linear-gradient((#27337d, #932856));
@@ -179,6 +200,12 @@ ul li a {
   max-width: 85%;
   cursor: pointer;
 }
+.featuredCard {
+  display: flex;
+  justify-content: center;
+  width: 200%;
+
+}
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -212,6 +239,13 @@ ul li a {
 
 .main-header h1 {
   text-align: center;
+}
+.otherCards{
+  display: flex;
+  justify-content: space-around;
+}
+.otherCardImg{
+  opacity: 85%;
 }
 .profile-pic {
   width: 50%;
